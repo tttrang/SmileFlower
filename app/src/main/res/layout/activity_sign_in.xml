@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/flower_background"
+    tools:context=".Views.SignInActivity">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_number_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="Số điện thoại"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="25sp"
+            app:met_baseColor="@color/colorBlack"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="16"
+            app:met_primaryColor="@color/colorBlack"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="25sp"
+            app:met_baseColor="@color/colorBlack"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="8"
+            app:met_primaryColor="@color/colorBlack"
+            app:met_singleLineEllipsis="true" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_sign_in"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/sign_in"
+            android:textColor="@color/colorWhite" />
+
+</LinearLayout>

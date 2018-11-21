@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "88177734399",
+    "firebase_url": "https://smile-flower-9b03b.firebaseio.com",
+    "project_id": "smile-flower-9b03b",
+    "storage_bucket": "smile-flower-9b03b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88177734399:android:d97944eae52ebc05",
+        "android_client_info": {
+          "package_name": "com.example.tttra.smileflower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88177734399-cpe9k4gh9akp5c19ltemhpg5fsb2rr5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tttra.smileflower",
+            "certificate_hash": "7967eae8209ad3d91d03ad4cc27bb262c9692c02"
+          }
+        },
+        {
+          "client_id": "88177734399-ttm34hmm8uqq0qaimhf9i8vo41a700qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuWnQvKSecZ3mFKp1YGz05KUNdw25Sb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88177734399-ttm34hmm8uqq0qaimhf9i8vo41a700qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
