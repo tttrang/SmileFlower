@@ -17,6 +17,7 @@ public class Order {
     }
 
     public Order() {
+        // Default constructor required for calls to DataSnapshot.getValue(Order.class)
     }
 
     public Order(String productId) {

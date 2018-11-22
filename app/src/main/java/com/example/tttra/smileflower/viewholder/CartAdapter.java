@@ -45,7 +45,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
         holder.tvPrice.setText(format.format(price));
         holder.tvName.setText(currentOrder.getProductName());
 
-
         TextDrawable drawable = TextDrawable.builder()
                 .buildRound("" + currentOrder.getQuantity(), Color.RED);
         holder.imgCount.setImageDrawable(drawable);
@@ -71,6 +70,5 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             imgCart = itemView.findViewById(R.id.img_cart);
 
         }
-
     }
 }

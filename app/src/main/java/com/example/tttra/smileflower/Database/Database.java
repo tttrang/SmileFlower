@@ -15,6 +15,7 @@ import java.util.List;
 public class Database extends SQLiteAssetHelper {
     private static final String DB_NAME = "SmileFlowerDB.db";
     private static final int DB_VER = 1;
+
     public Database(Context context){
         super(context, DB_NAME, null, DB_VER );
     }
@@ -26,9 +27,11 @@ public class Database extends SQLiteAssetHelper {
         String[] sqlSelect = {"ProductId","ProductName", "Quantity", "Price", "Discount", "ImgCart"};
         String sqlTable = "OrderFlower";
         qb.setTables(sqlTable);
+        //save value returned
         Cursor cursor = qb.query(db,sqlSelect,null,null,null,null,null);
 
         final List<Order> result = new ArrayList<>();
+
         if (cursor.moveToFirst()){
             do {
                 result.add(new Order(cursor.getString(cursor.getColumnIndex("ProductId")),

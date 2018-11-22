@@ -41,6 +41,7 @@ public class SignInActivity extends AppCompatActivity {
                 final ProgressDialog mDialog = new ProgressDialog(SignInActivity.this);
                 mDialog.setMessage("Please waiting...");
                 mDialog.show();
+                // retrive data
                 table_user.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

@@ -55,7 +55,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_margin="8dp"
                 android:layout_marginTop="16dp"
-                android:text="Địa chỉ giao hoa"
+                android:text="Đặt hàng tại đây"
                 android:textColor="@color/colorWhite"/>
         </RelativeLayout>
     </android.support.v7.widget.CardView>
